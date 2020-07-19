@@ -1,0 +1,107 @@
+/*NavBar*/
+.navcor{
+    background-color: #000 !important;
+}
+.navbar-toggler-icon{
+    color: white;
+}
+.logo{
+    width: 150px;
+    margin: 10px;
+}
+.dropdown-menu{
+    background-color: #000;
+}
+.dropdown-item{
+    color: #fff;
+}
+.dropdown-item:hover{
+    background-color: red;
+    color: #fff;
+}
+/*Posição das opções da NavBar*/
+.mr-auto{
+    margin-left: auto !important;
+}
+.mr-auto{
+    margin-right: 20px !important;
+}
+/*Cards*/
+.card{
+    margin: auto;
+    margin-top: 40px;
+    padding: 1px;
+    border: none;
+}
+.card-title{
+    font-size: 18px;
+    font-family: sans-serif;
+    width: auto;
+}
+.card-body{
+    height: 200px;
+    padding-left: 0;
+}
+@media (max-width: 576px){
+    .card-body{
+        text-align: center;
+    }
+}
+.h1-titulo{
+    margin: 30px 0;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.cortepreco{
+    text-decoration: line-through;
+    font-style: italic;
+    color: gray;
+}
+.preco{
+    font-weight: 700;
+    color: #333;
+    font-size: 20px;
+    line-height: 20px;
+}
+.txtporapenas{
+    color: rgb(57, 219, 57);
+    font-weight: bold;
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 0;
+}
+/*Efeito de subir card*/
+.card-img-top:hover{
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}
+/*Rodapé*/
+.rodape{
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+    background-color: #000;
+    margin-top: 8%;
+}
+.social-icons a{
+    color: #000;
+    margin-right: 3%;
+}
+.social-icons img{
+    width: 45px;
+}
+.social-icons img:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.copyright{
+    margin-top: 2%;
+    color:#fff;
+    text-align: center;
+}
+.rodape hr{
+    border-color: #fff;
+}
